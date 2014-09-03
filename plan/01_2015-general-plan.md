@@ -27,13 +27,14 @@
 
 朋友圈尽量不去制造和发明轮子，首先依附于各大平台，包括：  
 视频 - 优酷 http://i.youku.com/moilioncircle  
-订阅 - 微信订阅 “攻城狮朋友圈”  
+网盘 - http://pan.baidu.com/share/home?uk=1380913564  
+微信 - 微信订阅 “攻城狮朋友圈”  
 互动 - 微博关注 http://weibo.com/moilioncircle  
 源码 - 资源和源码 http://github.com/moilion  
 贴吧 - http://tieba.baidu.com/f?kw=攻城狮朋友圈  
 邮件 - circle@moilion.com  
 网站 - http://www.moilion.com  
-订阅 - moilioncircle@google.com
+列表 - moilioncircle@google.com
 
 ## 检查
 
