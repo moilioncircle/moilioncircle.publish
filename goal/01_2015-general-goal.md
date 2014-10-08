@@ -30,7 +30,7 @@
 网盘 - http://pan.baidu.com/share/home?uk=1380913564  
 微信 - 微信订阅 “攻城狮朋友圈”  
 微博 - 微博关注 http://weibo.com/moilioncircle  
-源码 - 资源和源码 http://github.com/moilion  
+源码 - 资源和源码 http://github.com/moilioncircle  
 贴吧 - http://tieba.baidu.com/f?kw=攻城狮朋友圈  
 邮件 - circle@moilion.com  
 网站 - http://www.moilion.com  
