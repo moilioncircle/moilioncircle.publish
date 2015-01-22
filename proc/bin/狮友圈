@@ -1,0 +1,45 @@
+#!/bin/bash
+proc_path=$(readlink -f $0)
+proc_name=$(basename $proc_path)
+proc_root=$(dirname $(dirname $proc_path))
+#see http://www.moilioncircle.com/release/011.hand.ubuntu-screen-cast-1080p.html
+#######
+
+path_ads=$proc_root/ads/$proc_name
+path_pid=$proc_root/pid/$proc_name
+
+function func_shut {
+	if [ -f "$path_pid" ]; then
+		pid=`cat $path_pid`
+		eps=`pgrep pqiv|grep $pid`
+		if [ "$eps" != "" ];then
+			kill -9 $pid >/dev/null 2>&1
+			rm -rf $path_pid
+		fi
+	fi
+}
+
+function func_show {
+	pqiv -sciF -d 10 -P 1870,910 $path_ads &
+	echo $!>$path_pid
+}
+
+function func_help {
+	echo "$proc_name 开"
+	echo "$proc_name 关"
+}
+
+case "$1" in
+	"开")
+		func_shut
+		func_show
+		echo "开启：$proc_name"
+		;;
+	"关")
+		func_shut
+		echo "关闭：$proc_name"
+		;;
+	*)
+		func_help
+esac
+
