@@ -6,6 +6,10 @@ proc_root=$(dirname $(dirname $proc_path))
 #######
 path_ads=$proc_root/ads/$proc_name
 
+#see apt-get install xdotool
+echo "开始：启动SSR录屏"
+xdotool key ctrl+alt+shift+p
+
 echo "开始：攻城狮片头"
 /usr/bin/pqiv -cisnF -d 1 -P 160,100 $path_ads/ &
 pid=$!
